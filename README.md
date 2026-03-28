@@ -26,8 +26,7 @@ all hooks are handled by `hooks/hook.py` — one file, zero bash scripts, zero j
 ## install
 
 ```bash
-claude plugin marketplace add anipotts/claude-code-tips
-claude plugin install mine@claude-code-tips
+claude plugin add anipotts/mine
 ```
 
 ## requirements
