@@ -52,20 +52,27 @@ just type `/mine` followed by what you want to know. plain language works.
      12 tool calls, 8 min active, $1.44
 ```
 
-### spot your mistakes
+### find where sessions went wrong
 
 ```
 > /mine mistakes
 ```
 
 ```
-  error patterns across all sessions
+  session health across all projects
 
-  pattern                              count  last seen
-  rm -rf on directories                8      2026-03-22
-  clasp push --force                   8      2026-03-20
-  Read on directory (EISDIR)           3      2026-03-18
-  failed git push (remote ahead)       1      2026-03-26
+  signal                                    sessions   what it means
+  burned (high cost, no commits)            23         effort spent, nothing shipped
+  looped (same file edited 5+ times)        130        claude was stuck iterating
+  compacted (context overflowed)            103        task was too big for one session
+  abandoned (20+ tool calls, no commit)     41         work started but never landed
+
+  worst offenders:
+  1. fullstack (2026-03-14) — 143 tool calls, 2 compactions, 0 commits, $28.41
+  2. antileak (2026-03-09) — 98 tool calls, 3 compactions, 0 commits, $19.22
+
+  mine remembers these. next time you start a session on these projects,
+  the SessionStart hook surfaces what went wrong so claude adjusts its approach.
 ```
 
 ### more intents
