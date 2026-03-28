@@ -1,0 +1,20 @@
+{
+  "name": "mine",
+  "owner": {
+    "name": "Ani Potts"
+  },
+  "metadata": {
+    "description": "mines every claude code session into sqlite. costs, search, patterns, error memory.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mine",
+      "source": ".",
+      "description": "mines every claude code session into sqlite",
+      "author": { "name": "Ani Potts" },
+      "license": "MIT",
+      "category": "analytics"
+    }
+  ]
+}
