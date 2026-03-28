@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "mine",
-      "source": ".",
+      "source": "./",
       "description": "mines every claude code session into sqlite",
       "author": { "name": "Ani Potts" },
       "license": "MIT",
