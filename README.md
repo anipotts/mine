@@ -1,7 +1,7 @@
 <!-- tested with: claude code v2.1.81 -->
 # mine
 
-if this helped you, star it — it helps others find it.
+if this helped you, star it. it helps others find it.
 
 mines every claude code session into a local sqlite database. total recall for your dev work.
 
@@ -149,16 +149,16 @@ python3 scripts/mine.py --workers 8
 
 ## part of [claude-code-tips](https://github.com/anipotts/claude-code-tips)
 
-- [claude-code-tips](https://github.com/anipotts/claude-code-tips) — the patterns behind these tools
-- [claudemon](https://github.com/anipotts/claudemon) — real-time session monitor
-- [cc](https://github.com/anipotts/cc) — cross-session messaging
-- [imessage-mcp](https://github.com/anipotts/imessage-mcp) — iMessage MCP server
+- [claude-code-tips](https://github.com/anipotts/claude-code-tips) · the patterns behind these tools
+- [claudemon](https://github.com/anipotts/claudemon) · real-time session monitor
+- [cc](https://github.com/anipotts/cc) · cross-session messaging
+- [imessage-mcp](https://github.com/anipotts/imessage-mcp) · iMessage MCP server
 
 ## more from me
 
-- [anipotts.com/thoughts](https://anipotts.com/thoughts) — long-form
-- [buttondown.com/anipotts](https://buttondown.com/anipotts) — newsletter
-- [@anipottsbuilds](https://instagram.com/anipottsbuilds) — short-form
+- [anipotts.com/thoughts](https://anipotts.com/thoughts) · long-form
+- [buttondown.com/anipotts](https://buttondown.com/anipotts) · newsletter
+- [@anipottsbuilds](https://instagram.com/anipottsbuilds) · short-form
 
 ## license
 
